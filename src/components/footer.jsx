@@ -63,7 +63,9 @@ const Footer = () => {
           )}
           <li className="push-right">
             <a
-              href="https://www.hbz-nrw.de/impressum"
+              href={
+                process.env.IMPRESSUMLINK || "https://www.hbz-nrw.de/impressum"
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
