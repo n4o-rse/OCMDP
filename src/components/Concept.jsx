@@ -145,6 +145,47 @@ const Concept = ({
           </Markdown>
         </div>
       )}
+      {concept.TextOrUri && concept.TextOrUri.length > 0 && (
+        <div>
+          <h3>Text Or Uri</h3>
+          <ul>
+            {concept.TextOrUri.map((textOrUri, i) => (
+              <li key={i}>{textOrUri}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {concept.Verpflichtungsgrad && concept.Verpflichtungsgrad.length > 0 && (
+        <div>
+          <h3>Verpflichtungsgrad</h3>
+          <ul>
+            {concept.Verpflichtungsgrad.map((verpflichtungsgrad, i) => (
+              <li key={i}>{verpflichtungsgrad}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {concept.Wiederholbar && concept.Wiederholbar.length > 0 && (
+        <div>
+          <h3>Wiederholbar</h3>
+          <ul>
+            {concept.Wiederholbar.map((wiederholbarItem, i) => (
+              <li key={i}>{wiederholbarItem}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {concept.EmpfohleneVokabulare &&
+        concept.EmpfohleneVokabulare.length > 0 && (
+          <div>
+            <h3>Empfohlene Vokabulare</h3>
+            <ul>
+              {concept.EmpfohleneVokabulare.map((empfohleneVokabulare, i) => (
+                <li key={i}>{empfohleneVokabulare}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       {concept.related && concept.related.length > 0 && (
         <div>
           <h3>Related</h3>
@@ -250,8 +291,7 @@ const Concept = ({
           <ul aria-labelledby="in-scheme">
             {concept.inSchemeAll.map((inScheme) => (
               <li key={inScheme.id}>
-                {/* 
-              check if the concept scheme in that language is present
+                {/* check if the concept scheme in that language is present
               otherwise link to first present language
               */}
                 {Object.keys(conceptSchemes).includes(inScheme.id) ? (

@@ -11,6 +11,7 @@ const jsonld = {
     vann: "http://purl.org/vocab/vann/",
     ldp: "http://www.w3.org/ns/ldp#",
     owl: "http://www.w3.org/2002/07/owl#",
+    doc: "http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#",
     title: {
       "@id": "dct:title",
       "@container": "@language",
@@ -120,6 +121,22 @@ const jsonld = {
     },
     isReplacedBy: {
       "@id": "dct:isReplacedBy",
+      "@container": "@set",
+    },
+    TextOrUri: {
+      "@id": "doc:TextOrUri",
+      "@container": "@set",
+    },
+    Verpflichtungsgrad: {
+      "@id": "doc:Verpflichtungsgrad",
+      "@container": "@set",
+    },
+    Wiederholbar: {
+      "@id": "doc:Wiederholbar",
+      "@container": "@set",
+    },
+    EmpfohleneVokabulare: {
+      "@id": "doc:EmpfohleneVokabulare",
       "@container": "@set",
     },
   },

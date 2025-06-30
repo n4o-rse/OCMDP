@@ -33,7 +33,7 @@ B14C4A,Objektmaterial,Objektwerkstoff,"Angaben zum Material bzw. den Materialien
 
 Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, zum Beispiel ob zur Materialbestimmung eine naturwissenschaftliche Analyse verwendet wurde oder ob sie lediglich auf einer visuellen Begutachtung des Objektes beruht. 
 
-Beispiel: ""Bronze (Ergebnis RFA)"", ""Buntmetall (Ergebnis visuelle Begutachtung) """,ADD53A,,Pflicht,URI,Ja,Material (Empfohlen),
+Beispiel: ""Bronze (Ergebnis RFA)"", ""Buntmetall (Ergebnis visuelle Begutachtung) """,ADD53A,,Pflicht,URI,Ja,Material (Empfohlen),Art & Architecture Thesaurus
 B3FCA1,Herstellungstechnik,,"Angaben zur Technik bzw. zu Techniken, die zur Herstellung des Objektes verwendet wurden. 
 
 Idealerweise sollte auch die Belastbarkeit dieser Angaben mit erfasst werden, z.B. die Spuren/Indizien die auf dem Objekt beobachtet wurden. 

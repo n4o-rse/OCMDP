@@ -45,7 +45,11 @@ module.exports = (languages) => `
     inSchemeAll: [ConceptScheme],
     hub: String,
     deprecated: Boolean,
-    isReplacedBy: [Concept]
+    isReplacedBy: [Concept],
+    TextOrUri: [String],
+    Verpflichtungsgrad: [String],
+    Wiederholbar: [String],
+    EmpfohleneVokabulare: [String]
   }
 
   type LanguageMap {

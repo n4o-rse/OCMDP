@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import urllib.parse
 from rdflib import Graph, URIRef, BNode, Literal, Namespace
-from rdflib.namespace import SKOS, RDF, DC, DCTERMS, RDFS, VANN
+from rdflib.namespace import SKOS, RDF, DC, DCTERMS, RDFS, VANN, XSD
 
 def csv2Df(link, propertyMatchDict):
     with open("data.csv", "w", encoding="utf-8") as f:
@@ -86,11 +86,11 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
         ("source", SKOS.note, Literal, True), #DC.source # False
         #("creator", DC.creator, Literal, False),
         ("seeAlso", RDFS.seeAlso, Literal, False),
-        ("Verpflichtungsgrad", DOC.Verpflichtungsgrad, Literal, True),   # SKOS.scopeNote, Literal, True),
+        ("Verpflichtungsgrad", DOC.Verpflichtungsgrad, Literal, False),   # SKOS.scopeNote, Literal, True),
         ("translation", SKOS.altLabel, Literal, True),
-        ("Feldwert", DOC.TextOrUri, Literal, True), #SKOS.editorialNote, Literal, True), 
-        ("Wiederholbar", DOC.Wiederholbar, Literal, True), # SKOS.historyNote, Literal, True),
-        ("Empfohlene Vokabulare", DOC.EmpfohleneVokabulare, Literal, True), # SKOS.changeNote, Literal, True),
+        ("Feldwert", DOC.TextOrUri, Literal, False), #SKOS.editorialNote, Literal, True), 
+        ("Wiederholbar", DOC.Wiederholbar, Literal, False), # SKOS.historyNote, Literal, True),
+        ("Empfohlene Vokabulare", DOC.EmpfohleneVokabulare, Literal, False), # SKOS.changeNote, Literal, True),
     ]
 
     g = Graph()

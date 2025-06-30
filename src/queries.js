@@ -132,6 +132,10 @@ module.exports.allConcept = (inScheme, languages) => `
           isReplacedBy {
             id
           }
+          TextOrUri
+          Verpflichtungsgrad
+          Wiederholbar
+          EmpfohleneVokabulare
         }
       }
     }
@@ -213,6 +217,10 @@ module.exports.allConceptScheme = (languages) => `
       ${[...languages].join(" ")}
     }
     deprecated
+    TextOrUri
+    Verpflichtungsgrad
+    Wiederholbar
+    EmpfohleneVokabulare
   }
 `
 module.exports.tokenizer = `{
