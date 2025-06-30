@@ -44,7 +44,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#26c884`,
         display: `minimal-ui`,
-        icon: `src/images/skohub-icon.png`, // This path is relative to the root of the site.
+        icon: "static/img/Thesaurus_Logo.png", //`src/images/skohub-icon.png`, // This path is relative to the root of the site.
       },
     },
   ],
