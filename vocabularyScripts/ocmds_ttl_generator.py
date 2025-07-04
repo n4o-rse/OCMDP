@@ -81,7 +81,6 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
 
     DOC = Namespace("http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#")
 
-
     extendedTuples = [
         ("source", SKOS.note, Literal, True), #DC.source # False
         #("creator", DC.creator, Literal, False),
@@ -101,37 +100,22 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
     g.bind("doc", DOC)
 
     g.add ((thesaurus, RDF.type, SKOS.ConceptScheme))
-    g.add ((thesaurus, DC.title, Literal("Metadatenvokabular Konservierung/Restaurierung", lang=baseLanguageLabel)))
-    g.add ((thesaurus, DC.description, Literal("Sammlung relevanter Metadaten des Faches.", lang=baseLanguageLabel)))
-    g.add ((thesaurus, DC.creator, Literal("TWG Standards")))
+    g.add ((thesaurus, DC.title, Literal("Object Core Metadata Profile", lang=baseLanguageLabel)))
+    g.add ((thesaurus, DC.description, Literal("Termininology of the OCMDP", lang=baseLanguageLabel)))
+    g.add ((thesaurus, DC.creator, Literal("TWG OCMDP/MaCHO")))
     #g.add ((thesaurus, DCTERMS.publisher, Literal("Leibniz-Zentrum für Archäologie (LEIZA)")))
     g.add ((thesaurus, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by/4.0/")))
     g.add ((thesaurus, DCTERMS.rights, Literal("CC BY 4.0")))
     g.add((thesaurus, VANN.preferredNamespaceUri, Literal(thesaurusAddendum)))
 
-    """
-    contributors = ["Kristina Fella", 
-                    "Lasse Mempel-Länger", 
-                    "Waldemar Muskalla", 
-                    "Dr. Ingrid Stelzner", 
-                    "Matthias Heinzel",
-                    "Christian Eckmann",
-                    "Heidrun Hochgesand",
-                    "Katja Broschat",
-                    "Leslie Pluntke",
-                    "Markus Wittköpper",
-                    "Marlene Schmucker",
-                    "Dr. Roland Schwab",
-                    "Rüdiger Lehnert",
-                    "Ulrike Lehnert",
-                    "Stephan Patscher",
-                    "Lena Klar"
+    contributors = ["Florian Thiery",
+                    "Anja Gerber",
+                    "Lasse Mempel-Länger"
                     ]
     for contributor in contributors:
         g.add ((thesaurus, DCTERMS.contributor, Literal(contributor)))
-    """
 
-    subjects = ["Konservierung", "Restaurierung", "Metadaten"]
+    subjects = ["Metadata", "Meta-Metadata", "Meta-Meta-Metadata"]
 
     for subject in subjects:
         g.add ((thesaurus, DCTERMS.subject, Literal(subject, lang=baseLanguageLabel)))
@@ -159,7 +143,7 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
 
 def main(link, baseLanguageLabel, propertyMatchDict, seperator):
     df = csv2Df(link, propertyMatchDict)
-    df = sortNotation(df)
+    #df = sortNotation(df)
     text = df.to_csv(index=False)
     with open('polishedData.csv', 'w', encoding="utf-8") as f:
         f.write(text)
@@ -168,9 +152,9 @@ def main(link, baseLanguageLabel, propertyMatchDict, seperator):
     graph.serialize(destination='thesaurus.ttl', format='turtle')   
     #graph.serialize(destination='thesaurus.json-ld', format='json-ld')
 
-link = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRb0tjnjkyjzReZ_--dYJOD4rbl1_iV8EdVTFXATh9ie6u3bRAeEYYrMNKZF0AcM_PQJkQbmZyGFfYe/pub?gid=0&single=true&output=csv"
+link = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRX_ecwh-LlKqM2FPR_ELs5c6ZuRKa4nc5pCl4-RakoCVl5nxia8GIHoOYZIbbeuvB0MH8eY26WNsb7/pub?gid=0&single=true&output=csv"
 baseLanguageLabel = "de"
-baseUri = "https://restaurierungs-und-konservierungsdaten.github.io/Metadaten/Referenzvokabular" #"https://www.lassemempel.github.io/Restaurierungsdaten/Metadaten"  # "http://data.archaeology.link/terminology/archeologicalconservation"
+baseUri = "https://www.w3id.org/objectcore/terminology/terms" # "https://restaurierungs-und-konservierungsdaten.github.io/Metadaten/Referenzvokabular" #"https://www.lassemempel.github.io/Restaurierungsdaten/Metadaten"  # "http://data.archaeology.link/terminology/archeologicalconservation"
 
 # dictionary to map divergent column names in the csv to the SKOS properties
 propertyMatchDict = {"identifier":"notation","description":"definition","parent":"broader", "note (source)": "source"}
