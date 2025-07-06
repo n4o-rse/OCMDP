@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/B5DD1C",
+  "id": "https://www.w3id.org/objectcore/terminology/B5DD1C",
   "type": "Concept",
   "prefLabel": {
     "de": "Identifier"
@@ -8,19 +8,19 @@
     "B5DD1C"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DC",
+    "id": "https://www.w3id.org/objectcore/terminology/F7D3DC",
     "prefLabel": {
       "de": "Terms"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "TextOrUri": [

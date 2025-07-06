@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/CD3341",
+  "id": "https://www.w3id.org/objectcore/terminology/CD3341",
   "type": "Concept",
   "prefLabel": {
     "de": "Resource"
@@ -9,32 +9,32 @@
   ],
   "narrower": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/F3G8D1",
+      "id": "https://www.w3id.org/objectcore/terminology/F3G8D1",
       "prefLabel": {
         "de": "URL"
       }
     },
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/G76A78",
+      "id": "https://www.w3id.org/objectcore/terminology/G76A78",
       "prefLabel": {
         "de": "Terminology Term"
       }
     }
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DB",
+    "id": "https://www.w3id.org/objectcore/terminology/F7D3DB",
     "prefLabel": {
       "de": "Datentyp"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

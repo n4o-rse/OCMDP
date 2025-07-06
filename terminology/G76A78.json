@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/G76A78",
+  "id": "https://www.w3id.org/objectcore/terminology/G76A78",
   "type": "Concept",
   "prefLabel": {
     "de": "Terminology Term"
@@ -8,19 +8,19 @@
     "G76A78"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/CD3341",
+    "id": "https://www.w3id.org/objectcore/terminology/CD3341",
     "prefLabel": {
       "de": "Resource"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

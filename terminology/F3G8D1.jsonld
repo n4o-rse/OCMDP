@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/F3G8D1",
+  "id": "https://www.w3id.org/objectcore/terminology/F3G8D1",
   "type": "Concept",
   "prefLabel": {
     "de": "URL"
@@ -8,19 +8,19 @@
     "F3G8D1"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/CD3341",
+    "id": "https://www.w3id.org/objectcore/terminology/CD3341",
     "prefLabel": {
       "de": "Resource"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

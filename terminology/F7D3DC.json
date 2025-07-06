@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DC",
+  "id": "https://www.w3id.org/objectcore/terminology/F7D3DC",
   "type": "Concept",
   "prefLabel": {
     "de": "Terms"
@@ -9,19 +9,19 @@
   ],
   "narrower": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/B5DD1C",
+      "id": "https://www.w3id.org/objectcore/terminology/B5DD1C",
       "prefLabel": {
         "de": "Identifier"
       }
     },
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DA",
+      "id": "https://www.w3id.org/objectcore/terminology/F7D3DA",
       "prefLabel": {
         "de": "Label"
       }
     },
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/K343FVA",
+      "id": "https://www.w3id.org/objectcore/terminology/K343FVA",
       "prefLabel": {
         "de": "Description"
       }
@@ -29,17 +29,17 @@
   ],
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

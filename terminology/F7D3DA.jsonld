@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DA",
+  "id": "https://www.w3id.org/objectcore/terminology/F7D3DA",
   "type": "Concept",
   "prefLabel": {
     "de": "Label"
@@ -8,19 +8,19 @@
     "F7D3DA"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DC",
+    "id": "https://www.w3id.org/objectcore/terminology/F7D3DC",
     "prefLabel": {
       "de": "Terms"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "TextOrUri": [

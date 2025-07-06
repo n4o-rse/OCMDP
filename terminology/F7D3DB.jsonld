@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/F7D3DB",
+  "id": "https://www.w3id.org/objectcore/terminology/F7D3DB",
   "type": "Concept",
   "prefLabel": {
     "de": "Datentyp"
@@ -9,32 +9,32 @@
   ],
   "narrower": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/F9GB13",
+      "id": "https://www.w3id.org/objectcore/terminology/F9GB13",
       "prefLabel": {
         "de": "Literal"
       }
     },
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology/CD3341",
+      "id": "https://www.w3id.org/objectcore/terminology/CD3341",
       "prefLabel": {
         "de": "Resource"
       }
     }
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/K343FVL",
+    "id": "https://www.w3id.org/objectcore/terminology/K343FVL",
     "prefLabel": {
       "de": "Dictionary"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

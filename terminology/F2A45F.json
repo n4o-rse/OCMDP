@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/F2A45F",
+  "id": "https://www.w3id.org/objectcore/terminology/F2A45F",
   "type": "Concept",
   "prefLabel": {
     "de": "String"
@@ -8,19 +8,19 @@
     "F2A45F"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/F9GB13",
+    "id": "https://www.w3id.org/objectcore/terminology/F9GB13",
     "prefLabel": {
       "de": "Literal"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {

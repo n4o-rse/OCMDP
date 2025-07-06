@@ -1,5 +1,5 @@
 {
-  "id": "https://n4o-rse.github.io/OCMDP/terminology/B51DAF",
+  "id": "https://www.w3id.org/objectcore/terminology/B51DAF",
   "type": "Concept",
   "prefLabel": {
     "de": "Verpflichtungsgrad"
@@ -8,19 +8,19 @@
     "B51DAF"
   ],
   "broader": {
-    "id": "https://n4o-rse.github.io/OCMDP/terminology/K343FVL",
+    "id": "https://www.w3id.org/objectcore/terminology/K343FVL",
     "prefLabel": {
       "de": "Dictionary"
     }
   },
   "inScheme": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://n4o-rse.github.io/OCMDP/terminology"
+      "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
   "@context": {
