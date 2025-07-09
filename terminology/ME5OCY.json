@@ -31,6 +31,9 @@
       "id": "https://www.w3id.org/objectcore/terminology"
     }
   ],
+  "Datentyp": [
+    "TW6U6T"
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
