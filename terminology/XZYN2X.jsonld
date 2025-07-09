@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Empfehlung"
   },
+  "definition": {
+    "de": "[degree of commitment] it is recommened if available"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "XZYN2X"
   ],

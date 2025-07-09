@@ -2,15 +2,23 @@
   "id": "https://www.w3id.org/objectcore/terminology/AUI6OG",
   "type": "Concept",
   "prefLabel": {
-    "de": "Human Made Feature"
+    "de": "E25 Human Made Feature"
+  },
+  "definition": {
+    "de": "his class comprises physical features that are purposely created by human activity, such as scratches, artificial caves, artificial water channels, etc."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "AUI6OG"
   ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/TWRCK6",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E24 Physical Human Made Thing"
     }
   },
   "inScheme": [

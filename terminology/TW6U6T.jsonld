@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "URL"
   },
+  "definition": {
+    "de": "[data type] anything having a URL (resource)"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "TW6U6T"
   ],
@@ -22,9 +30,6 @@
     {
       "id": "https://www.w3id.org/objectcore/terminology"
     }
-  ],
-  "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#anyURI"
   ],
   "@context": {
     "@version": 1.1,

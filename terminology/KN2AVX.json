@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Minimaldatensatz-Empfehlung für Museen und Sammlungen"
   },
+  "definition": {
+    "de": "Minimaldatensatz-Empfehlung für Museen und Sammlungen"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "KN2AVX"
   ],

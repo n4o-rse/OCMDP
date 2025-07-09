@@ -2,15 +2,23 @@
   "id": "https://www.w3id.org/objectcore/terminology/T4WUQ4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Material"
+    "de": "E57 Material"
+  },
+  "definition": {
+    "de": "This class is a specialization of E55 Type and comprises the concepts of materials."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "T4WUQ4"
   ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/FA2GRP",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E55 Type"
     }
   },
   "inScheme": [

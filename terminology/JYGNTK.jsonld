@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Verpflichtungsgrad"
   },
+  "definition": {
+    "de": "Umbrella term to define the degree of commitment"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "JYGNTK"
   ],
@@ -44,7 +52,9 @@
     }
   ],
   "TextOrUri": [
-    "https://www.w3id.org/objectcore/terminology/JY9HHS"
+    "G338GB",
+    "JM0BW3",
+    "XZYN2X"
   ],
   "@context": {
     "@version": 1.1,

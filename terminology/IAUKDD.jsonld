@@ -2,15 +2,23 @@
   "id": "https://www.w3id.org/objectcore/terminology/IAUKDD",
   "type": "Concept",
   "prefLabel": {
-    "de": "Appellation"
+    "de": "E41 Appellation"
+  },
+  "definition": {
+    "de": "This class comprises all signs, either meaningful or not, or arrangements of signs following a specific syntax, that are used or can be used to refer to and identify a specific instance of some class within a certain context."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "IAUKDD"
   ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E71 Human Made Thing"
     }
   },
   "inScheme": [

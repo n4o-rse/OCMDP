@@ -2,15 +2,23 @@
   "id": "https://www.w3id.org/objectcore/terminology/PK5RI8",
   "type": "Concept",
   "prefLabel": {
-    "de": "Biologial Object"
+    "de": "E20 Biologial Object"
+  },
+  "definition": {
+    "de": "This class comprises individual items of a material nature, which live, have lived, or are natural products of or from living organisms."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "PK5RI8"
   ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/KAQF00",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E19 Physical Object"
     }
   },
   "inScheme": [

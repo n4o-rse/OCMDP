@@ -2,15 +2,49 @@
   "id": "https://www.w3id.org/objectcore/terminology/XNDA95",
   "type": "Concept",
   "prefLabel": {
-    "de": "Event"
+    "de": "E5 Event"
+  },
+  "definition": {
+    "de": "This class comprises distinct, delimited and coherent processes and interactions of a material nature, in cultural, social or physical systems, involving and affecting instances of E77 Persistent Item in a way characteristic of the kind of process."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "XNDA95"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BMANTK",
+      "prefLabel": {
+        "de": "D2 Digitization Process"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/E9RPOU",
+      "prefLabel": {
+        "de": "D10 Software Execution"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KXB3YB",
+      "prefLabel": {
+        "de": "Activity (PROV)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/M3UTNZ",
+      "prefLabel": {
+        "de": "E7 Digital Machine Event"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/RKNT00",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E2 Temporal Entity"
     }
   },
   "inScheme": [

@@ -2,15 +2,37 @@
   "id": "https://www.w3id.org/objectcore/terminology/VQZ4BM",
   "type": "Concept",
   "prefLabel": {
-    "de": "Physical Thing"
+    "de": "E18 Physical Thing"
+  },
+  "definition": {
+    "de": "This class comprises all persistent physical items with a relatively stable form, human-made or natural."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "VQZ4BM"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/OK66T3",
+      "prefLabel": {
+        "de": "D13 Digital Information Carrier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KAQF00",
+      "prefLabel": {
+        "de": "E19 Physical Object"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/PKXD5U",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E70 Thing"
     }
   },
   "inScheme": [

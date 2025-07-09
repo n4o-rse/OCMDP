@@ -2,15 +2,31 @@
   "id": "https://www.w3id.org/objectcore/terminology/VT14KK",
   "type": "Concept",
   "prefLabel": {
-    "de": "Human Made Object"
+    "de": "E22 Human Made Object"
+  },
+  "definition": {
+    "de": "This class comprises all persistent physical objects of any size that are purposely created by human activity and have physical boundaries that separate them completely in an objective way from other objects."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "VT14KK"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/LW2J1W",
+      "prefLabel": {
+        "de": "E84 Information Carrier"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/TWRCK6",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E24 Physical Human Made Thing"
     }
   },
   "inScheme": [

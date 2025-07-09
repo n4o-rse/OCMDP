@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Empfohlene Terminologien"
   },
+  "definition": {
+    "de": "Property to recommend terminologies"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "H1RGOM"
   ],
@@ -24,7 +32,7 @@
     }
   ],
   "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#anyURI"
+    "XE70Z8"
   ],
   "@context": {
     "@version": 1.1,

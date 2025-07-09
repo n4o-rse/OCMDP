@@ -2,15 +2,37 @@
   "id": "https://www.w3id.org/objectcore/terminology/TWRCK6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Physical Human Made Thing"
+    "de": "E24 Physical Human Made Thing"
+  },
+  "definition": {
+    "de": "This class comprises all persistent physical items of any size that are purposely created by human activity."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "TWRCK6"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/AUI6OG",
+      "prefLabel": {
+        "de": "E25 Human Made Feature"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/VT14KK",
+      "prefLabel": {
+        "de": "E22 Human Made Object"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E71 Human Made Thing"
     }
   },
   "inScheme": [

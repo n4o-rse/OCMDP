@@ -4,10 +4,24 @@
   "prefLabel": {
     "de": "Dictionary"
   },
+  "definition": {
+    "de": "Terms to set profile specific attributes"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "JY9HHS"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TQKQBM",
+      "prefLabel": {
+        "de": "Datentyp"
+      }
+    },
     {
       "id": "https://www.w3id.org/objectcore/terminology/EO7QK9",
       "prefLabel": {
@@ -30,12 +44,6 @@
       "id": "https://www.w3id.org/objectcore/terminology/KL9LCA",
       "prefLabel": {
         "de": "Unsicherheit"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/TQKQBM",
-      "prefLabel": {
-        "de": "Datentyp"
       }
     }
   ],

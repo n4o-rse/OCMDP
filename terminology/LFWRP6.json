@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Metadatenvokabular Konservierung/Restaurierung"
   },
+  "definition": {
+    "de": "Metadatenvokabular Konservierung/Restaurierung"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "LFWRP6"
   ],

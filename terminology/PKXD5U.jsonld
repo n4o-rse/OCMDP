@@ -2,15 +2,43 @@
   "id": "https://www.w3id.org/objectcore/terminology/PKXD5U",
   "type": "Concept",
   "prefLabel": {
-    "de": "Thing"
+    "de": "E70 Thing"
+  },
+  "definition": {
+    "de": "This general class comprises discrete, identifiable, instances of E77 Persistent Item that are documented as single units, that either consist of matter or depend on being carried by matter and are characterized by relative stability."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "PKXD5U"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
+      "prefLabel": {
+        "de": "E71 Human Made Thing"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/NCWZ6Q",
+      "prefLabel": {
+        "de": "E73 Information Object"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/VQZ4BM",
+      "prefLabel": {
+        "de": "E18 Physical Thing"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E1 Entity"
     }
   },
   "inScheme": [

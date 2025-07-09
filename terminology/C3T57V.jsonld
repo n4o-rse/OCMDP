@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Category"
   },
+  "definition": {
+    "de": "Sub-Sets of the Object Core Metadata Profile"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "C3T57V"
   ],

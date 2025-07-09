@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Wiederholbar"
   },
+  "definition": {
+    "de": "Boolean term do describe if sth. is repeatable"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "EO7QK9"
   ],
@@ -24,7 +32,7 @@
     }
   ],
   "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#boolean"
+    "DC3SN2"
   ],
   "@context": {
     "@version": 1.1,

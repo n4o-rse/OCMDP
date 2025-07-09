@@ -2,15 +2,43 @@
   "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
   "type": "Concept",
   "prefLabel": {
-    "de": "Human Made Thing"
+    "de": "E71 Human Made Thing"
+  },
+  "definition": {
+    "de": "This class comprises discrete, identifiable human-made items that are documented as single units."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "E54Q7Z"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TWRCK6",
+      "prefLabel": {
+        "de": "E24 Physical Human Made Thing"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/IAUKDD",
+      "prefLabel": {
+        "de": "E41 Appellation"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/FA2GRP",
+      "prefLabel": {
+        "de": "E55 Type"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/PKXD5U",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E70 Thing"
     }
   },
   "inScheme": [

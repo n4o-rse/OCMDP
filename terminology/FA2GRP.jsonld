@@ -2,15 +2,37 @@
   "id": "https://www.w3id.org/objectcore/terminology/FA2GRP",
   "type": "Concept",
   "prefLabel": {
-    "de": "Type"
+    "de": "E55 Type"
+  },
+  "definition": {
+    "de": "This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CIDOC CRM classes."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "FA2GRP"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PD7I1U",
+      "prefLabel": {
+        "de": "Concept (SKOS)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/T4WUQ4",
+      "prefLabel": {
+        "de": "E57 Material"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E71 Human Made Thing"
     }
   },
   "inScheme": [

@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Literal"
   },
+  "definition": {
+    "de": "[data type] any literal, textual or numeric"
+  },
+  "note": {
+    "de": [
+      "RDF Schema 1.1"
+    ]
+  },
   "notation": [
     "L2QGNY"
   ],

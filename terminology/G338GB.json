@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Pflicht"
   },
+  "definition": {
+    "de": "[degree of commitment] it is mendatory"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "G338GB"
   ],

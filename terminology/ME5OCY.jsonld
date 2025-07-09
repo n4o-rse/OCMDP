@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Terminology Term"
   },
+  "definition": {
+    "de": "[data type] anything serving as terminology term (resource)"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "ME5OCY"
   ],
@@ -24,7 +32,7 @@
     }
   ],
   "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#anyURI"
+    "TW6U6T"
   ],
   "@context": {
     "@version": 1.1,

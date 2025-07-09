@@ -4,10 +4,24 @@
   "prefLabel": {
     "de": "Datentyp"
   },
+  "definition": {
+    "de": "Umbrella term to define data types"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "TQKQBM"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DC3SN2",
+      "prefLabel": {
+        "de": "boolean"
+      }
+    },
     {
       "id": "https://www.w3id.org/objectcore/terminology/L2QGNY",
       "prefLabel": {

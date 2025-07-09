@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Optional"
   },
+  "definition": {
+    "de": "[degree of commitment] it is recommened if available but not mendatory"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "JM0BW3"
   ],

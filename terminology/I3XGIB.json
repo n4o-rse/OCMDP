@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Decimal"
   },
+  "definition": {
+    "de": "[data type] numeric (literal)"
+  },
+  "note": {
+    "de": [
+      "XMLSchema v1.5"
+    ]
+  },
   "notation": [
     "I3XGIB"
   ],
@@ -22,9 +30,6 @@
     {
       "id": "https://www.w3id.org/objectcore/terminology"
     }
-  ],
-  "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#decimal"
   ],
   "@context": {
     "@version": 1.1,

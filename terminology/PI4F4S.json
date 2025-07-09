@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "String"
   },
+  "definition": {
+    "de": "[data type] string (literal)"
+  },
+  "note": {
+    "de": [
+      "XMLSchema v1.5"
+    ]
+  },
   "notation": [
     "PI4F4S"
   ],
@@ -22,9 +30,6 @@
     {
       "id": "https://www.w3id.org/objectcore/terminology"
     }
-  ],
-  "TextOrUri": [
-    "https://www.w3.org/2001/XMLSchema-datatypes#string"
   ],
   "@context": {
     "@version": 1.1,

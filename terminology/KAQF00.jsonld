@@ -2,15 +2,31 @@
   "id": "https://www.w3id.org/objectcore/terminology/KAQF00",
   "type": "Concept",
   "prefLabel": {
-    "de": "Physical Object"
+    "de": "E19 Physical Object"
+  },
+  "definition": {
+    "de": "This class comprises items of a material nature that are units for documentation and have physical boundaries that separate them completely in an objective way from other objects."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "KAQF00"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PK5RI8",
+      "prefLabel": {
+        "de": "E20 Biologial Object"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/VQZ4BM",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E18 Physical Thing"
     }
   },
   "inScheme": [

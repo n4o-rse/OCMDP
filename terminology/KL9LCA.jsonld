@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Unsicherheit"
   },
+  "definition": {
+    "de": "Property to indicate that there cam be something uncertain"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "KL9LCA"
   ],
@@ -22,6 +30,9 @@
     {
       "id": "https://www.w3id.org/objectcore/terminology"
     }
+  ],
+  "TextOrUri": [
+    "DC3SN2"
   ],
   "@context": {
     "@version": 1.1,

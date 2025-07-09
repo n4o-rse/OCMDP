@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Terms"
   },
+  "definition": {
+    "de": "Properties to describe the Object Core Metadata Profile"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "RHY8N1"
   ],

@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Archäologische Aktivitäten (ARA)"
   },
+  "definition": {
+    "de": "Archäologische Aktivitäten (ARA)"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "KYF46O"
   ],

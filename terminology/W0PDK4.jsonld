@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Label"
   },
+  "altLabel": {
+    "de": [
+      "Bezeichnung"
+    ]
+  },
   "notation": [
     "W0PDK4"
   ],

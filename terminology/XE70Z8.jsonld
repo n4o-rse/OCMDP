@@ -4,6 +4,14 @@
   "prefLabel": {
     "de": "Resource"
   },
+  "definition": {
+    "de": "[data type] any digital resource, e.g. URL"
+  },
+  "note": {
+    "de": [
+      "RDF Schema 1.1"
+    ]
+  },
   "notation": [
     "XE70Z8"
   ],

@@ -2,15 +2,23 @@
   "id": "https://www.w3id.org/objectcore/terminology/M3NSIV",
   "type": "Concept",
   "prefLabel": {
-    "de": "Actor"
+    "de": "E39 Actor"
+  },
+  "definition": {
+    "de": "This class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which they can be held responsible."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "M3NSIV"
   ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/T06G7I",
+    "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
     "prefLabel": {
-      "de": "Entities"
+      "de": "E1 Entity"
     }
   },
   "inScheme": [

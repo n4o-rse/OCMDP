@@ -2,10 +2,80 @@
   "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
   "type": "Concept",
   "prefLabel": {
-    "de": "Entity"
+    "de": "E1 Entity"
+  },
+  "definition": {
+    "de": "This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model."
+  },
+  "note": {
+    "de": [
+      "CIDOC-CRM v7.1.3"
+    ]
   },
   "notation": [
     "DGSLS7"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/AVVZYP",
+      "prefLabel": {
+        "de": "Resource (DCAT)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BZ1YP5",
+      "prefLabel": {
+        "de": "DataService (DCAT)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/FFYJTZ",
+      "prefLabel": {
+        "de": "E53 Place"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/H5KD3F",
+      "prefLabel": {
+        "de": "Dataset (DCAT)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/M3NSIV",
+      "prefLabel": {
+        "de": "E39 Actor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/O8UZ2A",
+      "prefLabel": {
+        "de": "Entity (PROV)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/UD7DTU",
+      "prefLabel": {
+        "de": "Agent (PROV)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/G7Q645",
+      "prefLabel": {
+        "de": "Catalog (DACT)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/RKNT00",
+      "prefLabel": {
+        "de": "E2 Temporal Entity"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PKXD5U",
+      "prefLabel": {
+        "de": "E70 Thing"
+      }
+    }
   ],
   "broader": {
     "id": "https://www.w3id.org/objectcore/terminology/T06G7I",

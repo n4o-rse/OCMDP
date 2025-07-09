@@ -4,98 +4,22 @@
   "prefLabel": {
     "de": "Entities"
   },
+  "definition": {
+    "de": "Classes to interlink with the Research Data Knowledge Graph and CIDOC-CRM"
+  },
+  "note": {
+    "de": [
+      "NFDI4Objects TWG internal"
+    ]
+  },
   "notation": [
     "T06G7I"
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/objectcore/terminology/AUI6OG",
-      "prefLabel": {
-        "de": "Human Made Feature"
-      }
-    },
-    {
       "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
       "prefLabel": {
-        "de": "Entity"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/E54Q7Z",
-      "prefLabel": {
-        "de": "Human Made Thing"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/FA2GRP",
-      "prefLabel": {
-        "de": "Type"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/FFYJTZ",
-      "prefLabel": {
-        "de": "Place"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/IAUKDD",
-      "prefLabel": {
-        "de": "Appellation"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/KAQF00",
-      "prefLabel": {
-        "de": "Physical Object"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/M3NSIV",
-      "prefLabel": {
-        "de": "Actor"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/PK5RI8",
-      "prefLabel": {
-        "de": "Biologial Object"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/PKXD5U",
-      "prefLabel": {
-        "de": "Thing"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/T4WUQ4",
-      "prefLabel": {
-        "de": "Material"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/TWRCK6",
-      "prefLabel": {
-        "de": "Physical Human Made Thing"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/VQZ4BM",
-      "prefLabel": {
-        "de": "Physical Thing"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/VT14KK",
-      "prefLabel": {
-        "de": "Human Made Object"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/XNDA95",
-      "prefLabel": {
-        "de": "Event"
+        "de": "E1 Entity"
       }
     }
   ],
