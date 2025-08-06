@@ -9,13 +9,19 @@
   },
   "note": {
     "de": [
-      "NFDI4Objects TWG internal"
+      "Object Core"
     ]
   },
   "notation": [
     "JYGNTK"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/CVF5M9",
+      "prefLabel": {
+        "de": "Bedingt Pflicht"
+      }
+    },
     {
       "id": "https://www.w3id.org/objectcore/terminology/G338GB",
       "prefLabel": {
@@ -52,9 +58,9 @@
     }
   ],
   "Datentyp": [
+    "XZYN2X",
     "G338GB",
-    "JM0BW3",
-    "XZYN2X"
+    "JM0BW3"
   ],
   "@context": {
     "@version": 1.1,

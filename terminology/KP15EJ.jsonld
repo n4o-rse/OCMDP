@@ -9,8 +9,39 @@
       "Beschreibung"
     ]
   },
+  "note": {
+    "de": [
+      "Object Core"
+    ]
+  },
   "notation": [
     "KP15EJ"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/ITBC4E",
+      "prefLabel": {
+        "de": "description"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/O83VQV",
+      "prefLabel": {
+        "de": "Objektbeschreibung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SSBY7V",
+      "prefLabel": {
+        "de": "Beschreibung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/Y6HWIT",
+      "prefLabel": {
+        "de": "description"
+      }
+    }
   ],
   "broader": {
     "id": "https://www.w3id.org/objectcore/terminology/RHY8N1",

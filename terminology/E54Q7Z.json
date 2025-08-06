@@ -29,6 +29,12 @@
       }
     },
     {
+      "id": "https://www.w3id.org/objectcore/terminology/KXMYTM",
+      "prefLabel": {
+        "de": "Creative Work (schema.org)"
+      }
+    },
+    {
       "id": "https://www.w3id.org/objectcore/terminology/FA2GRP",
       "prefLabel": {
         "de": "E55 Type"

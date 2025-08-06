@@ -15,10 +15,24 @@
   "notation": [
     "H5KD3F"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/H1QJDU",
+      "prefLabel": {
+        "de": "Description Type (DataCite)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MGQGXG",
+      "prefLabel": {
+        "de": "Recherche und Ressource (Matrix PROV-RES)"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
+    "id": "https://www.w3id.org/objectcore/terminology/MRGLEV",
     "prefLabel": {
-      "de": "E1 Entity"
+      "de": "dataset (NFDIcore)"
     }
   },
   "inScheme": [

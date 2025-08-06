@@ -9,13 +9,19 @@
   },
   "note": {
     "de": [
-      "NFDI4Objects TWG internal"
+      "Object Core"
     ]
   },
   "notation": [
     "TQKQBM"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BGVR25",
+      "prefLabel": {
+        "de": "Date"
+      }
+    },
     {
       "id": "https://www.w3id.org/objectcore/terminology/DC3SN2",
       "prefLabel": {
@@ -32,6 +38,12 @@
       "id": "https://www.w3id.org/objectcore/terminology/XE70Z8",
       "prefLabel": {
         "de": "Resource"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MF87ON",
+      "prefLabel": {
+        "de": "Language"
       }
     }
   ],

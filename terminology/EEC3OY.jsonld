@@ -17,6 +17,12 @@
   ],
   "narrower": [
     {
+      "id": "https://www.w3id.org/objectcore/terminology/Z0E7WH",
+      "prefLabel": {
+        "de": "Identifier Scheme (DataCite)"
+      }
+    },
+    {
       "id": "https://www.w3id.org/objectcore/terminology/Y12LLC",
       "prefLabel": {
         "de": "D14 Software"

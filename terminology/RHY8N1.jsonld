@@ -9,7 +9,7 @@
   },
   "note": {
     "de": [
-      "NFDI4Objects TWG internal"
+      "Object Core"
     ]
   },
   "notation": [
@@ -17,9 +17,63 @@
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/objectcore/terminology/KP15EJ",
+      "id": "https://www.w3id.org/objectcore/terminology/RAE30P",
       "prefLabel": {
-        "de": "Description"
+        "de": "Software Application"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/FEO71C",
+      "prefLabel": {
+        "de": "creator"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/V4JDTK",
+      "prefLabel": {
+        "de": "type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/VFCI6M",
+      "prefLabel": {
+        "de": "[have to be assigned]"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BHPPV6",
+      "prefLabel": {
+        "de": "Codemeta Terms"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/N8V5BR",
+      "prefLabel": {
+        "de": "Thing / Creative Work"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/H0IEJF",
+      "prefLabel": {
+        "de": "keyword"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/OO56ML",
+      "prefLabel": {
+        "de": "version"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/W0PDK4",
+      "prefLabel": {
+        "de": "Label"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DS9MXX",
+      "prefLabel": {
+        "de": "method description"
       }
     },
     {
@@ -29,9 +83,123 @@
       }
     },
     {
-      "id": "https://www.w3id.org/objectcore/terminology/W0PDK4",
+      "id": "https://www.w3id.org/objectcore/terminology/GAXDWK",
       "prefLabel": {
-        "de": "Label"
+        "de": "certainty level"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/L6C5YL",
+      "prefLabel": {
+        "de": "date"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/V8HDG6",
+      "prefLabel": {
+        "de": "see also URL"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DMNAV5",
+      "prefLabel": {
+        "de": "code repository"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/B6LS0S",
+      "prefLabel": {
+        "de": "contact"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/B49OER",
+      "prefLabel": {
+        "de": "Datierung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KP15EJ",
+      "prefLabel": {
+        "de": "Description"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/EBTWZ2",
+      "prefLabel": {
+        "de": "location"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/F1CNR9",
+      "prefLabel": {
+        "de": "Lizenz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/JE2FK2",
+      "prefLabel": {
+        "de": "method used"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/JJAFY0",
+      "prefLabel": {
+        "de": "source type (detail)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QMHHSX",
+      "prefLabel": {
+        "de": "point type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/GGG4XU",
+      "prefLabel": {
+        "de": "source"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QAAJ5W",
+      "prefLabel": {
+        "de": "has geometry"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SIGY8B",
+      "prefLabel": {
+        "de": "source type (generic)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SLA8P9",
+      "prefLabel": {
+        "de": "acting person"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SXI6DM",
+      "prefLabel": {
+        "de": "precision"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/UPU3X7",
+      "prefLabel": {
+        "de": "certainty description"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/V79CWV",
+      "prefLabel": {
+        "de": "location type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/AYXDLU",
+      "prefLabel": {
+        "de": "related person"
       }
     }
   ],

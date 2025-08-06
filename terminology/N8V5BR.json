@@ -1,0 +1,279 @@
+{
+  "id": "https://www.w3id.org/objectcore/terminology/N8V5BR",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Thing / Creative Work"
+  },
+  "note": {
+    "de": [
+      "Schema.org"
+    ]
+  },
+  "notation": [
+    "N8V5BR"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BCNZPJ",
+      "prefLabel": {
+        "de": "copyrightYear"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BZQ5JS",
+      "prefLabel": {
+        "de": "copyrightHolder"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/IR66G7",
+      "prefLabel": {
+        "de": "isAccessibleForFree"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/LO9FPO",
+      "prefLabel": {
+        "de": "sponsor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QB9H8J",
+      "prefLabel": {
+        "de": "encodingFormat"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QCJNY5",
+      "prefLabel": {
+        "de": "producer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QOW23Q",
+      "prefLabel": {
+        "de": "position"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QPLAO4",
+      "prefLabel": {
+        "de": "review"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/ROSKM3",
+      "prefLabel": {
+        "de": "encoding"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SA5KLR",
+      "prefLabel": {
+        "de": "isPartOf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TK5J3P",
+      "prefLabel": {
+        "de": "funder"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/W69QDL",
+      "prefLabel": {
+        "de": "provider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/X236V6",
+      "prefLabel": {
+        "de": "hasPart"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/Z8K26T",
+      "prefLabel": {
+        "de": "citation"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/objectcore/terminology/RHY8N1",
+    "prefLabel": {
+      "de": "Terms"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ocmdp": "http://www.w3id.org/objectcore/terminology/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "Datentyp": {
+      "@id": "ocmdp:TQKQBM",
+      "@container": "@set"
+    },
+    "Verpflichtungsgrad": {
+      "@id": "ocmdp:JYGNTK",
+      "@container": "@set"
+    },
+    "Wiederholbar": {
+      "@id": "ocmdp:EO7QK9",
+      "@container": "@set"
+    },
+    "EmpfohleneTerminologien": {
+      "@id": "ocmdp:H1RGOM",
+      "@container": "@set"
+    }
+  }
+}

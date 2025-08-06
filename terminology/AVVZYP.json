@@ -15,10 +15,30 @@
   "notation": [
     "AVVZYP"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/E5JM9H",
+      "prefLabel": {
+        "de": "Empfehlungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/R7HUAW",
+      "prefLabel": {
+        "de": "Netzwerke und Services"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/YBBA5L",
+      "prefLabel": {
+        "de": "Digitale Anwendungen"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://www.w3id.org/objectcore/terminology/DGSLS7",
+    "id": "https://www.w3id.org/objectcore/terminology/XOOXXY",
     "prefLabel": {
-      "de": "E1 Entity"
+      "de": "information content entity (BFO / IAO)"
     }
   },
   "inScheme": [

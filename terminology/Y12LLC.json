@@ -15,6 +15,14 @@
   "notation": [
     "Y12LLC"
   ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QHSRYL",
+      "prefLabel": {
+        "de": "Software Application (schema.org)"
+      }
+    }
+  ],
   "broader": {
     "id": "https://www.w3id.org/objectcore/terminology/EEC3OY",
     "prefLabel": {

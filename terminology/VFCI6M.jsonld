@@ -1,0 +1,501 @@
+{
+  "id": "https://www.w3id.org/objectcore/terminology/VFCI6M",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "[have to be assigned]"
+  },
+  "note": {
+    "de": [
+      "Object Core"
+    ]
+  },
+  "notation": [
+    "VFCI6M"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/AS5DQW",
+      "prefLabel": {
+        "de": "description"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/B4A319",
+      "prefLabel": {
+        "de": "launchpad"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/BS6V8S",
+      "prefLabel": {
+        "de": "keywords"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/CIDBBO",
+      "prefLabel": {
+        "de": "DOI"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/CLWPGY",
+      "prefLabel": {
+        "de": "related to"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/CM9D9L",
+      "prefLabel": {
+        "de": "publisher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/CPR4IU",
+      "prefLabel": {
+        "de": "pypi"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/D3O2FU",
+      "prefLabel": {
+        "de": "license"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DCEIIW",
+      "prefLabel": {
+        "de": "relatedLink"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DP5YPS",
+      "prefLabel": {
+        "de": "Plana/Profile"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DW9FKA",
+      "prefLabel": {
+        "de": "cran"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/EYZU1G",
+      "prefLabel": {
+        "de": "Datenhaltende Stelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/GA9NVR",
+      "prefLabel": {
+        "de": "twitter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/GLAKQJ",
+      "prefLabel": {
+        "de": "youtube"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/GTTO7K",
+      "prefLabel": {
+        "de": "platform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/H5PAZV",
+      "prefLabel": {
+        "de": "codeberg"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/HRHZAS",
+      "prefLabel": {
+        "de": "dateModified"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/HVZQP1",
+      "prefLabel": {
+        "de": "editor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/IZWLDY",
+      "prefLabel": {
+        "de": "part of"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KRXM7D",
+      "prefLabel": {
+        "de": "Dokumentation digital/analog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/L2TDHU",
+      "prefLabel": {
+        "de": "Verantwortliche Institution"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/L4QL7A",
+      "prefLabel": {
+        "de": "Technik"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/LDPVTQ",
+      "prefLabel": {
+        "de": "contributor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/LL8UQR",
+      "prefLabel": {
+        "de": "sameAs"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/LWQ5U6",
+      "prefLabel": {
+        "de": "has spatial type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MFA5X7",
+      "prefLabel": {
+        "de": "Literatur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MYRFBI",
+      "prefLabel": {
+        "de": "Mediendatei: Medientyp"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/ND3DI2",
+      "prefLabel": {
+        "de": "Verantwortliche Person"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/NXSH0Z",
+      "prefLabel": {
+        "de": "Material"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/NZ1L1C",
+      "prefLabel": {
+        "de": "Maße"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/O9IGKD",
+      "prefLabel": {
+        "de": "datePublished"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PCEQ25",
+      "prefLabel": {
+        "de": "Funde/Befunde/Proben"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PS17P1",
+      "prefLabel": {
+        "de": "Sprache des Datensatzes"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/PVOL9A",
+      "prefLabel": {
+        "de": "dateCreated"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QGAFVR",
+      "prefLabel": {
+        "de": "vorangegangene/verknüpfte Aktivitäten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/R8FKWK",
+      "prefLabel": {
+        "de": "blogpost"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/S0MT0K",
+      "prefLabel": {
+        "de": "has spatial category"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/S6TJ2R",
+      "prefLabel": {
+        "de": "identifier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SO9EJO",
+      "prefLabel": {
+        "de": "internetarchive"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/SXHGM8",
+      "prefLabel": {
+        "de": "has reference"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TMNTAI",
+      "prefLabel": {
+        "de": "Art"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TSYLYN",
+      "prefLabel": {
+        "de": "related to type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TY837W",
+      "prefLabel": {
+        "de": "Alternativtext"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/TYAIJP",
+      "prefLabel": {
+        "de": "Ausdehnung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/UVTP4Y",
+      "prefLabel": {
+        "de": "url"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/VKOHY5",
+      "prefLabel": {
+        "de": "instance of"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/W7ATPO",
+      "prefLabel": {
+        "de": "reference URL"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/WF8UZW",
+      "prefLabel": {
+        "de": "Verwahrende Einrichtung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/XE0BDN",
+      "prefLabel": {
+        "de": "publication"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/XT002O",
+      "prefLabel": {
+        "de": "notes"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/YA55EF",
+      "prefLabel": {
+        "de": "name"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/objectcore/terminology/RHY8N1",
+    "prefLabel": {
+      "de": "Terms"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology"
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "ocmdp": "http://www.w3id.org/objectcore/terminology/",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "Datentyp": {
+      "@id": "ocmdp:TQKQBM",
+      "@container": "@set"
+    },
+    "Verpflichtungsgrad": {
+      "@id": "ocmdp:JYGNTK",
+      "@container": "@set"
+    },
+    "Wiederholbar": {
+      "@id": "ocmdp:EO7QK9",
+      "@container": "@set"
+    },
+    "EmpfohleneTerminologien": {
+      "@id": "ocmdp:H1RGOM",
+      "@container": "@set"
+    }
+  }
+}

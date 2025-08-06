@@ -17,12 +17,6 @@
   ],
   "narrower": [
     {
-      "id": "https://www.w3id.org/objectcore/terminology/AVVZYP",
-      "prefLabel": {
-        "de": "Resource (DCAT)"
-      }
-    },
-    {
       "id": "https://www.w3id.org/objectcore/terminology/BZ1YP5",
       "prefLabel": {
         "de": "DataService (DCAT)"
@@ -32,12 +26,6 @@
       "id": "https://www.w3id.org/objectcore/terminology/FFYJTZ",
       "prefLabel": {
         "de": "E53 Place"
-      }
-    },
-    {
-      "id": "https://www.w3id.org/objectcore/terminology/H5KD3F",
-      "prefLabel": {
-        "de": "Dataset (DCAT)"
       }
     },
     {
@@ -65,9 +53,21 @@
       }
     },
     {
+      "id": "https://www.w3id.org/objectcore/terminology/YLF126",
+      "prefLabel": {
+        "de": "data set (BFO / IAO)"
+      }
+    },
+    {
       "id": "https://www.w3id.org/objectcore/terminology/RKNT00",
       "prefLabel": {
         "de": "E2 Temporal Entity"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/XOOXXY",
+      "prefLabel": {
+        "de": "information content entity (BFO / IAO)"
       }
     },
     {

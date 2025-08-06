@@ -9,8 +9,51 @@
       "Bezeichnung"
     ]
   },
+  "note": {
+    "de": [
+      "Object Core"
+    ]
+  },
   "notation": [
     "W0PDK4"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/DGAQX5",
+      "prefLabel": {
+        "de": "item_name"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/M4DGZ1",
+      "prefLabel": {
+        "de": "Bezeichnung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/N4MAYU",
+      "prefLabel": {
+        "de": "Name"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/NPIU6Z",
+      "prefLabel": {
+        "de": "Objekttitel oder -benennung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/QWW166",
+      "prefLabel": {
+        "de": "label"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/RM9ZW8",
+      "prefLabel": {
+        "de": "alias"
+      }
+    }
   ],
   "broader": {
     "id": "https://www.w3id.org/objectcore/terminology/RHY8N1",

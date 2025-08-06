@@ -9,8 +9,45 @@
       "Identifikator"
     ]
   },
+  "note": {
+    "de": [
+      "Object Core"
+    ]
+  },
   "notation": [
     "KX62YX"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/FYX7BJ",
+      "prefLabel": {
+        "de": "Inventarnummer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KV87R9",
+      "prefLabel": {
+        "de": "ID"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MVDWV1",
+      "prefLabel": {
+        "de": "Q-ID"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/RHVWDD",
+      "prefLabel": {
+        "de": "Identifier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/U2H4FS",
+      "prefLabel": {
+        "de": "ID Datensatz"
+      }
+    }
   ],
   "broader": {
     "id": "https://www.w3id.org/objectcore/terminology/RHY8N1",

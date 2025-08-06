@@ -9,7 +9,7 @@
   },
   "note": {
     "de": [
-      "NFDI4Objects TWG internal"
+      "Object Core"
     ]
   },
   "notation": [
@@ -23,15 +23,21 @@
       }
     },
     {
-      "id": "https://www.w3id.org/objectcore/terminology/EO7QK9",
-      "prefLabel": {
-        "de": "Wiederholbar"
-      }
-    },
-    {
       "id": "https://www.w3id.org/objectcore/terminology/JYGNTK",
       "prefLabel": {
         "de": "Verpflichtungsgrad"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/MR9BFK",
+      "prefLabel": {
+        "de": "Type"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/EO7QK9",
+      "prefLabel": {
+        "de": "Wiederholbar"
       }
     },
     {

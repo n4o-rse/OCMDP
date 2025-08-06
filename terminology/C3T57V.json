@@ -2,20 +2,56 @@
   "id": "https://www.w3id.org/objectcore/terminology/C3T57V",
   "type": "Concept",
   "prefLabel": {
-    "de": "Category"
+    "de": "Profile"
   },
   "definition": {
     "de": "Sub-Sets of the Object Core Metadata Profile"
   },
   "note": {
     "de": [
-      "NFDI4Objects TWG internal"
+      "Object Core"
     ]
   },
   "notation": [
     "C3T57V"
   ],
   "narrower": [
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/FGRGY1",
+      "prefLabel": {
+        "de": "n4o-databases-collections"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/HBHNVC",
+      "prefLabel": {
+        "de": "open-archaeo"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/HUHY5R",
+      "prefLabel": {
+        "de": "WG Software Metadata Crosswalk: SoftwareApplication"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/IN0SPM",
+      "prefLabel": {
+        "de": "fuzzy-sl Wikibase"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/J5LOVZ",
+      "prefLabel": {
+        "de": "Wikidata"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/KLJQRH",
+      "prefLabel": {
+        "de": "Matrix Tools und Services Provenienzforschung"
+      }
+    },
     {
       "id": "https://www.w3id.org/objectcore/terminology/KN2AVX",
       "prefLabel": {
@@ -32,6 +68,18 @@
       "id": "https://www.w3id.org/objectcore/terminology/LFWRP6",
       "prefLabel": {
         "de": "Metadatenvokabular Konservierung/Restaurierung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/VPR62B",
+      "prefLabel": {
+        "de": "WG Software Metadata Crosswalk: SoftwareSourceCode"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/objectcore/terminology/W5Z3U7",
+      "prefLabel": {
+        "de": "Objektbiografie"
       }
     }
   ],
